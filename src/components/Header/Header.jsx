@@ -1,17 +1,16 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Header.css';
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/solid';
+import { Bars3Icon } from '@heroicons/react/24/solid';
 
 const Header = () => {
-    const [open, setOpen] = useState(false);
     return (
         <div>
-            <div class="navbar bg-base-100">
+            <div class="navbar bg-base-100 px-5 md:px-28">
                 <div class="navbar-start">
                     <div class="dropdown">
                         <label tabindex="0" class="lg:hidden">
-                            <Bars3Icon class="h-6 w-5 m-1" />
+                            <Bars3Icon class=" h-6 w-6" />
                         </label>
                         <ul tabindex="0" class=" menu-compact dropdown-content mt-3 p-2 bg-yellow-100 rounded-box w-52">
                             <li><Link to="">Home</Link></li>
@@ -20,7 +19,7 @@ const Header = () => {
                             <li><Link to="/blog">Blog</Link></li>
                         </ul>
                     </div>
-                    <div className='mx-auto lg:mx-0 text-2xl font-bold lg:text-3xl'>
+                    <div className='mx-auto lg:mx-0 text-lg font-bold lg:text-3xl'>
                         Talent Match
                     </div>
                 </div>
@@ -33,7 +32,7 @@ const Header = () => {
                     </ul>
                 </div>
                 <div class="navbar-end">
-                    <button className='px-4 py-1 rounded text-white bg-primary'>Apply Now</button>
+                    <button className='px-4 py-1 rounded text-white bg-primary text-sm'>Apply Now</button>
                 </div>
             </div>
         </div>
