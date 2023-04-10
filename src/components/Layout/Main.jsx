@@ -7,7 +7,7 @@ import './Main.css';
 const Main = () => {
     return (
         <div className='Main'>
-            <div className='p-2 lg:px-5'>
+            <div className='p-2 lg:px-28'>
                 <Header />
                 <Home />
             </div>
