@@ -10,11 +10,11 @@ const Header = () => {
             </div>
             {/* Routes Links */}
             <div>
-                <ul className='md:flex gap-4'>
-                    <li><Link to="">Home</Link></li>
-                    <li> <Link to="/statistics">Statistics</Link></li>
-                    <li><Link to="/appliedjobs">Applied Jobs</Link></li>
-                    <li><Link to="/blog">Blog</Link></li>
+                <ul className=' md:flex gap-4'>
+                    <li className='m-3 lg:m-0'><Link to="">Home</Link></li>
+                    <li className='m-3 lg:m-0'><Link to="/statistics">Statistics</Link></li>
+                    <li className='m-3 lg:m-0'><Link to="/appliedjobs">Applied Jobs</Link></li>
+                    <li className='m-3 lg:m-0'><Link to="/blog">Blog</Link></li>
                 </ul>
             </div>
             {/* Apply Button */}
