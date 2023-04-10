@@ -1,0 +1,30 @@
+[
+    {
+        "id": "6f41c6a1-4b31-4f6f-a321-4f9b487d4de8",
+        "jobCategoryName": "Software Development",
+        "totalJobAvailable": 56,
+        "imageLink": "https://raw.githubusercontent.com/smmunna/talent-match-job-service/main/src/assets/Icons/chip%201.png"
+      },
+      
+      {
+        "id": "a31ebd61-19a7-4b1c-9867-77b5d0b482dc",
+        "jobCategoryName": "Marketing",
+        "totalJobAvailable": 12,
+        "imageLink": "https://raw.githubusercontent.com/smmunna/talent-match-job-service/main/src/assets/Icons/accounts%201.png"
+      },
+      
+      {
+        "id": "d8c6517a-ccf9-4640-b53f-c1a08a2622e5",
+        "jobCategoryName": "Human Resources",
+        "totalJobAvailable": 24,
+        "imageLink": "https://raw.githubusercontent.com/smmunna/talent-match-job-service/main/src/assets/Icons/business%201.png"
+      },
+      
+      {
+        "id": "2a2aefbe-12a7-41fb-bb5f-b65b1c44f3d3",
+        "jobCategoryName": "Graphic Design",
+        "totalJobAvailable": 8,
+        "imageLink": "https://raw.githubusercontent.com/smmunna/talent-match-job-service/main/src/assets/Icons/social-media%201.png"
+      }
+      
+]
