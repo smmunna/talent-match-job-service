@@ -1,0 +1,124 @@
+[
+    {
+      "id": 1,
+      "title": "Technical Database Engineer",
+      "company": "Google LLC.",
+      "type": {
+        "remote": "remote",
+        "onsite": "onsite",
+        "fullTime": "full-time"
+      },
+      "location": "New York",
+      "salary": "100-200k Per Month",
+      "phone": "(123) 456-7890",
+      "email": "john.doe@abcinc.com",
+      "description": "We are seeking a skilled Front-end Developer to join our team.",
+      "responsibility": "Responsibility 1, Responsibility 2, Responsibility 3",
+      "requirement": "Requirement 1, Requirement 2, Requirement 3",
+      "experience": "2-3 Years",
+      "education": "Bachelor's degree in Computer Science",
+      "image": "https://raw.githubusercontent.com/smmunna/talent-match-job-service/main/src/assets/Logo/google-1-1%201-1.png"
+    },
+    {
+      "id": 2,
+      "title": "Software Engineer",
+      "company": "Tesla",
+      "type": {
+        "remote": "remote",
+        "onsite": "onsite",
+        "fullTime": "full-time"
+      },
+      "location": "San Francisco",
+      "salary": "150-250k Per Month",
+      "phone": "(123) 456-7890",
+      "email": "jane.doe@xyzcorp.com",
+      "description": "We are looking for a talented Back-end Developer to join our team.",
+      "responsibility": "Responsibility 1, Responsibility 2, Responsibility 3",
+      "requirement": "Requirement 1, Requirement 2, Requirement 3",
+      "experience": "3-5 Years",
+      "education": "Master's degree in Computer Science",
+      "image": "https://raw.githubusercontent.com/smmunna/talent-match-job-service/main/src/assets/Logo/tesla-9%201.png"
+    },
+    {
+      "id": 3,
+      "title": "Senior Product Designer",
+      "company": "Netflix",
+      "type": {
+        "remote": "remote",
+        "onsite": "onsite",
+        "fullTime": "full-time"
+      },
+      "location": "Austin",
+      "salary": "120-220k Per Month",
+      "phone": "(123) 456-7890",
+      "email": "joe.smith@123llc.com",
+      "description": "We are seeking a highly skilled Full-stack Developer to join our team.",
+      "responsibility": "Responsibility 1, Responsibility 2, Responsibility 3",
+      "requirement": "Requirement 1, Requirement 2, Requirement 3",
+      "experience": "5-7 Years",
+      "education": "Bachelor's degree in Computer Science or equivalent",
+      "image": "https://raw.githubusercontent.com/smmunna/talent-match-job-service/main/src/assets/Logo/netflix-4%201.png"
+    },
+    {
+      "id": 4,
+      "title": "Full-stack Developer",
+      "company": "Google LLC.",
+      "type": {
+        "remote": "remote",
+        "onsite": "onsite",
+        "fullTime": "full-time"
+      },
+      "location": "Austin",
+      "salary": "120-220k Per Month",
+      "phone": "(123) 456-7890",
+      "email": "joe.smith@123llc.com",
+      "description": "We are seeking a highly skilled Full-stack Developer to join our team.",
+      "responsibility": "Responsibility 1, Responsibility 2, Responsibility 3",
+      "requirement": "Requirement 1, Requirement 2, Requirement 3",
+      "experience": "5-7 Years",
+      "education": "Bachelor's degree in Computer Science or equivalent",
+      "image": "https://raw.githubusercontent.com/smmunna/talent-match-job-service/main/src/assets/Logo/google-1-1%201.png"
+    },
+    {
+      "id": 5,
+      "title": "MERN-stack Developer",
+      "company": "Twitter LLC",
+      "type": {
+        "remote": "remote",
+        "onsite": "onsite",
+        "fullTime": "full-time"
+      },
+      "location": "Austin",
+      "salary": "120-220k Per Month",
+      "phone": "(123) 456-7890",
+      "email": "joe.smith@123llc.com",
+      "description": "We are seeking a highly skilled Full-stack Developer to join our team.",
+      "responsibility": "Responsibility 1, Responsibility 2, Responsibility 3",
+      "requirement": "Requirement 1, Requirement 2, Requirement 3",
+      "experience": "5-7 Years",
+      "education": "Bachelor's degree in Computer Science or equivalent",
+      "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHcAAAB3CAMAAAAO5y+4AAAAXVBMVEX///8dofIAnfIAm/EAmfEVn/IAl/Hg8P202/rx+f75/f/T6fzD4vuf0fiFxffq9f5MsPQppPJru/XZ7fxXtPWNyfen1fnL5vt3wPY+qvQAlPFkuPWZzvg9rPN2vPZv+CZ4AAAC8UlEQVRoge2Z6ZKqMBCFoTut7CHsDuD7P+YFRmcchQQatOpW5fupJIeT7nQWHMdisVgsFovFYrFYLP8/Z69s0yKLI/+DooGXEgIRAYJqwse/ZPQ+2egC5P4AkMn7P34MLN0sWPFQgg+qk7Jbj78Heakw5cjWX+2Kd0P3BfT8ukwRXFFzdDPChCM7WB7iPeo3HFlnaCoMLWMxJ3uDLmvi9EIojK+cz7q9m1ajrNw81N7UKRaaly5II1sMol5Bcrn5PCV8t7+cl54INXap9RIFgOFS40USuPXgegtPNKAZZndMLVxqqqH86RWb2fLnX3SyI6LaLuvEv6OIaq7u5JrofjfrGLJO9Bg9zF6jHOmyeQA4bodhPP3pBJtnZc+gy10TnsIHmP1NzkqbVm7OlHXi537ppLoH05XeL1s3mOkXxKWrb9ltiC9b9zGjH6UB+qaKQllrZd3FcmOmX5gpNGiDq/S6mwvkL2fXNEUXIcXdaoXDghDyhRXX7PUSSydPuX5ZW5yRBBD7a8bUhStXd5qexB1nXm0eCU/m3jW6rC3dBD+nRvjTN9HXXz09a083IXWbRQPA28LuNsw7oNwIFDfCpHZUySGluYYp2yM7LHXM+Sv2nj9rl2WZvSj8IIvTdstQ7pUdLRenrZ5xV1aNTLPfLzfaNR5fjeTUp70y7Cxe7O7Y4twpYHNKH2DXfCiYs3vIZVK2OaniI2QdubFYUn+I7OZiCQck1U34+YbqA6M8IdXq5MKdC8ITMa3zTCl/mzGLH6cojNo7l91ZAhlVrV6YdpwBdXj6KUXu9kujFeStfpzfIysT0A8yvCG2zjkh0+VNevgVv6xS48qPR+wwRq3p7YNzXTVKGKsGKv5p6En3+iVQCERDVEcIywOrRd6KdSVq7ipvF2ELxqUIsH1DrcgTpRtnQpUc7PWO72VqNsYEqLK3fh7z665Q040VTXzfXbVd+IFvckEeVV3TFmlaZEnn1eeDlzuLxWKxWCwWi8VisXyaf3jsH8eZomRXAAAAAElFTkSuQmCC"
+    },
+    {
+      "id": 6,
+      "title": "Full-stack Developer",
+      "company": "Facebook Meta",
+      "type": {
+        "remote": "remote",
+        "onsite": "onsite",
+        "fullTime": "full-time"
+      },
+      "location": "Dhaka, Bangladesh",
+      "salary": "220-320k Per Month",
+      "phone": "(123) 456-7890",
+      "email": "joe.smith@123llc.com",
+      "description": "We are seeking a highly skilled Full-stack Developer to join our team.",
+      "responsibility": "Responsibility 1, Responsibility 2, Responsibility 3",
+      "requirement": "Requirement 1, Requirement 2, Requirement 3",
+      "experience": "5-7 Years",
+      "education": "Bachelor's degree in Computer Science or equivalent",
+      "image": "https://kgo.googleusercontent.com/profile_vrt_raw_bytes_1587515400_10885.png"
+    }
+
+
+]
