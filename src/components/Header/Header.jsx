@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Header.css';
 import { Bars3Icon } from '@heroicons/react/24/solid';
+import TalentMatchLogo from '../../assets/images/talentMatch.png';
 
 const Header = () => {
     return (
@@ -20,7 +21,7 @@ const Header = () => {
                         </ul>
                     </div>
                     <div className='mx-auto lg:mx-0 text-lg font-bold lg:text-3xl'>
-                        Talent Match
+                        <img src={TalentMatchLogo} className='h-24' alt="" />
                     </div>
                 </div>
                 <div class="navbar-center hidden lg:flex">
