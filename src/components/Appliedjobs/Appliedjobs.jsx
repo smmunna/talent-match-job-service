@@ -16,13 +16,13 @@ const Appliedjobs = () => {
     useEffect(() => {
         const filteredData = [];
         for (const id in localData) {
-          const job = mydata.find(data => data.id === id);
-          if (job) {
-            filteredData.push(job);
-          }
+            const job = mydata.find(data => data.id === id);
+            if (job) {
+                filteredData.push(job);
+            }
         }
         setNewdata(filteredData);
-      }, [localData]);
+    }, [localData]);
 
     return (
         <div className='p-5 md:px-16 mt-5'>
