@@ -10,14 +10,17 @@ const Featuredjobs = () => {
                 <p className='py-5'>Explore thousands of job opportunities with all the information you need. Its your future</p>
             </div>
             {/* Featured Card data will come here */}
-            <div className='grid grid-cols-1 md:grid-cols-2 gap-3'>
+            <div className='grid grid-cols-1 md:grid-cols-2 gap-3 py-5'>
                 {
-                    data.map(featurejob=>
+                    data.slice(0,4).map(featurejob=>
                     <FeaturedjobsCard
                     key={featurejob.id}
                     featurejob={featurejob}
                     />)
                 }
+            </div>
+            <div className='text-center my-3'>
+            <button className='px-9 py-3 rounded text-white bg-blue-900 text-sm'>See All</button>
             </div>
         </div>
     );
