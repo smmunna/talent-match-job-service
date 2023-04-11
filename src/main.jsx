@@ -10,6 +10,7 @@ import Statistics from './components/Statistics/Statistics';
 import Appliedjobs from './components/Appliedjobs/Appliedjobs';
 import Blog from './components/Blog/Blog';
 import Home from './components/Home/Home';
+import Error from './components/Error/Error';
 
 
 const router = createBrowserRouter([
@@ -33,6 +34,11 @@ const router = createBrowserRouter([
       {
         path: "/blog",
         element: <Blog/>,
+      },
+      
+      {
+        path: "/*",
+        element: <Error/>,
       },
     ],
   },

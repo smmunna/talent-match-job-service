@@ -1,7 +1,7 @@
 import React from 'react';
-import Google from '../../assets/Logo/google-1-1 1-1.png';
 import Location from '../../assets/Icons/Location Icon.png';
 import Dollar from '../../assets/Icons/Frame.png';
+import { Link } from 'react-router-dom';
 
 const FeaturedjobsCard = ({ featurejob }) => {
     const { title, image, company, type, salary, location } = featurejob;
@@ -30,7 +30,7 @@ const FeaturedjobsCard = ({ featurejob }) => {
                     </div>
                 </div>
                 <div className='py-2'>
-                    <button className='px-4 py-3 rounded text-white bg-primary text-sm'>View Details</button>
+                    <Link to={`/jobdetails`} className='px-4 py-3 rounded text-white bg-primary text-sm'>View Details</Link>
                 </div>
             </div>
         </div>
