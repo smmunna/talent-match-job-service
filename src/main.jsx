@@ -11,6 +11,7 @@ import Appliedjobs from './components/Appliedjobs/Appliedjobs';
 import Blog from './components/Blog/Blog';
 import Home from './components/Home/Home';
 import Error from './components/Error/Error';
+import Jobdetails from './components/Jobdetails/Jobdetails';
 
 
 const router = createBrowserRouter([
@@ -30,6 +31,11 @@ const router = createBrowserRouter([
       {
         path: "/appliedjobs",
         element: <Appliedjobs/>,
+      },
+      {
+        path:"/jobdetails/:jobId",
+        element:<Jobdetails/>,
+        loader:({params})=>fetch(`/jobdetails/${params.jobId}`),
       },
       {
         path: "/blog",
