@@ -1,10 +1,13 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 const Jobdetails = () => {
-    const paramId = useParams();
+    
+
+    
     return (
         <div className='p-5 md:px-16'>
-            <h2 className='text-3xl font-bold text-center py-5'>Job Details{paramId.jobId}</h2>
+            <h2 className='text-3xl font-bold text-center py-5'>Job Details</h2>
+            
         </div>
     );
 }
