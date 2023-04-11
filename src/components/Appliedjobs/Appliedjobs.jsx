@@ -3,7 +3,6 @@ import { getShoppingCart } from '../../fakedb';
 
 const Appliedjobs = () => {
     const [mydata, setMydata] = useState([]);
-    const [localId, setLocalId] = useState();
     const [newData, setNewdata] = useState([]);
 
     let localData = getShoppingCart();
@@ -37,11 +36,11 @@ const Appliedjobs = () => {
                             <img src={data.image} alt="" />
                         </div>
                         <div>
-                            <h2>{data.title}</h2>
+                            <h2 className='font-bold'>{data.title}</h2>
                             <h2>{data.company}</h2>
-                            <div className='flex gap-3'>
-                                <div>{data.type.remote}</div>
-                                <div>{data.type.fullTime}</div>
+                            <div className='flex gap-3 py-3'>
+                                <div className='border-2 border-blue-500 p-2 text-blue-500'>{data.type.remote}</div>
+                                <div className='border-2 p-2 border-blue-500 text-blue-500'>{data.type.fullTime}</div>
                             </div>
                             <div className='flex gap-3'>
                                 <div>{data.location}</div>
