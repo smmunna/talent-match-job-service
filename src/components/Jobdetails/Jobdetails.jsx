@@ -8,7 +8,7 @@ const Jobdetails = () => {
         fetch('/jobs.json')
             .then(res => res.json())
             .then(data => {
-                const job = data.find(item => item.id === parseInt(id));
+                const job = data.find(item => item.id === id);
                 setSingleData(job);
             });
     }, [id]);
