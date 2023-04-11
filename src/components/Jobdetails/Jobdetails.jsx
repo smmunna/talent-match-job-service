@@ -1,5 +1,8 @@
 import React, { useEffect, useState } from 'react';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import { useParams } from 'react-router-dom';
+import { addToDb } from '../../fakedb';
 const Jobdetails = () => {
     const { id } = useParams();
     const [singleData, setSingleData] = useState(null);
@@ -13,6 +16,10 @@ const Jobdetails = () => {
             });
     }, [id]);
 
+    const storeToDb = (id)=>{
+        addToDb(id);
+        toast("Applied Successfully")
+    }
 
     return (
         <div className='p-5 md:px-16'>
@@ -49,7 +56,7 @@ const Jobdetails = () => {
                             <h3><span className='font-bold'>Address:</span> {singleData.location}</h3>
                         </div>
                         <div>
-                        <button className='px-4 py-3 rounded text-white bg-primary text-sm w-full mt-4'>Apply Now</button>
+                        <button onClick={()=>storeToDb(singleData.id)} className='px-4 py-3 rounded text-white bg-primary text-sm w-full mt-4'>Apply Now</button>
                         </div>
                     </div>
                     {/* Add other fields as needed */}
@@ -57,6 +64,8 @@ const Jobdetails = () => {
             ) : (
                 <p>Loading...</p>
             )}
+
+            <ToastContainer />
         </div>
     );
 }
