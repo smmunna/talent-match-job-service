@@ -1,9 +1,14 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import JobCategoryCard from '../JobCategoryCard/JobCategoryCard';
-import { useLoaderData } from 'react-router-dom';
+
 
 const JobCategory = () => {
-    const data = useLoaderData();
+    const [data,setData]=useState([]);
+    useEffect(()=>{
+        fetch('jobCategory.json')
+        .then(res=>res.json())
+        .then(data=>setData(data))
+    },[])
     return (
         <div>
             <div className='text-center pt-12'>

@@ -1,5 +1,4 @@
 import React from 'react';
-import Account from '../../assets/Icons/accounts 1.png'
 const JobCategoryCard = ({ category }) => {
     const { jobCategoryName, totalJobAvailable, imageLink } = category;
     return (
